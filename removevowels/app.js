@@ -5,3 +5,6 @@ const correctWord = (word) => {
   return word.replace(vowel, "*");
 };
 console.log(correctWord(sensoredWord));
+
+const fruits = "Banana,Orange,Apple,Mango";
+console.log(fruits.slice(",").toString());
