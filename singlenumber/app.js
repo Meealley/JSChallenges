@@ -1,4 +1,4 @@
-const nums = [2, 3, 4, 4, 5];
+const nums = [2, 2,1];
 
 var singleNumber = function (nums) {
   nums.sort();
